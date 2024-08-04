@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <nav class="navigation">
+        <a class="navigation__link" href="index.html">Shop</a>
+        <a class="navigation__link navigation__link" href="us.html">About Us</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+
+        <div class="tshirt">
+            <img class="tshirt__image" src="img/3.jpg" alt="Image Product">
+
+            <div class="tshirt__content">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Mauris dictum eleifend sapien, at aliquet arcu. Quisque quis augue diam.</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>-- Select Size --</option>
+                        <option>Extra Small (XS)</option>
+                        <option>Small (S)</option>
+                        <option>Medium (M)</option>
+                        <option>Large (L)</option>
+                        <option>Extra Large (XL)</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Quantity" min="1">
+                    <input class="form__submit" type="submit" value="Add to bag">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - All Rights Reserved 2025</p>
+    </footer>
+</body>
+</html>
